@@ -1,0 +1,62 @@
+.top-bar-image {
+
+  background-image: url('../images/web.jpg');
+  background-position: bottom center;
+  -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+}
+
+.lead {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.subtitle {font-size: 1.5rem;
+  font-weight: 250;
+  text-shadow: 2px 1px 1px black}
+
+section {
+  padding: 40px 0px;
+}
+
+ul {
+    list-style-type: square;
+}
+b {
+    font-weight: bold;
+}
+
+.h1, h1 {
+    font-size: 3rem;
+    text-shadow: 2px 3px 2px black;
+
+}
+
+img {
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+}
+
+td{
+  width: 30%;
+}
+
+.speakers-img img{
+  width: 50px;
+  height: 50px;
+}
+
+.row-centered {
+   text-align:center;
+}
+
+.col-centered {
+   display:inline-block;
+   float:none;
+   /* reset the text-align */
+   text-align:left;
+   /* inline-block space fix */
+   margin-right:-4px;
+}
